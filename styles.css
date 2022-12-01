@@ -11,7 +11,7 @@
   --Grayish-blue: hsl(233, 8%, 79%);
   --Dark-grayish-blue: hsl(236, 13%, 42%);
   --very-dark-blue: hsl(240, 100%, 5%);
-
+  overflow-x: hidden;
 }
 
 body {
@@ -154,7 +154,6 @@ button:hover{
 
 
 @media(max-width:950px){
-
     .details{
         grid-template-columns: 1fr;
     }
@@ -188,6 +187,10 @@ button:hover{
         cursor: pointer;
     }
 
+    .slide{
+        right: 100%;
+    }
+
 }
 
 
@@ -198,6 +201,3 @@ button:hover{
     display: none;
 }
 
-.slide{
-    right: -100%;
-}
